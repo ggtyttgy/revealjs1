@@ -2,42 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Quarterly Earnings – 23f2003790@ds.study.iitm.ac.in</title>
+  <title>Quarterly Earnings – RevealJS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Core CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@4/dist/reveal.css">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@4/dist/theme/black.css" id="theme">
-
-  <!-- Syntax highlighting theme -->
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@4/plugin/highlight/monokai.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js/plugin/highlight/monokai.css">
 </head>
 <body>
 <div class="reveal">
   <div class="slides">
-    <!-- Markdown slides -->
     <section data-markdown="slides.md"
-             data-separator="^---$"
-             data-separator-vertical="^\\|\\|\\|$"
-             data-separator-notes="^Note:">
-    </section>
+             data-separator="^---"
+             data-separator-notes="^Note:"></section>
   </div>
 </div>
 
-<!-- Core JS -->
-<script src="https://unpkg.com/reveal.js@4/dist/reveal.js"></script>
-
-<!-- Plugins -->
-<script src="https://unpkg.com/reveal.js@4/plugin/markdown/markdown.js"></script>
-<script src="https://unpkg.com/reveal.js@4/plugin/notes/notes.js"></script>
-<script src="https://unpkg.com/reveal.js@4/plugin/highlight/highlight.js"></script>
-<script src="https://unpkg.com/reveal.js@4/plugin/math/math.js"></script>
+<script src="https://unpkg.com/reveal.js/dist/reveal.js"></script>
+<script src="https://unpkg.com/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="https://unpkg.com/reveal.js/plugin/highlight/highlight.js"></script>
+<script src="https://unpkg.com/reveal.js/plugin/notes/notes.js"></script>
+<script src="https://unpkg.com/reveal.js/plugin/math/math.js"></script>
 
 <script>
   Reveal.initialize({
     hash: true,
     slideNumber: true,
-    plugins: [ RevealMarkdown, RevealNotes, RevealHighlight, RevealMath.MathJax2 ],
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax2 ],
     math: {
       mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js',
       config: 'TeX-AMS_HTML-full'
