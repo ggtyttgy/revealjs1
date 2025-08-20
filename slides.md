@@ -1,7 +1,7 @@
-# Quarterly Earnings – Q2 FY2025
+# Quarterly Earnings – Q2 FY2025 (23f2003790@ds.study.iitm.ac.in)
 
 **Technical Consultant:** You  
-**Contact:** (23f2003790@ds.study.iitm.ac.in)
+**Contact:** 23f2003790@ds.study.iitm.ac.in
 
 > Modern, interactive deck for stakeholders using RevealJS.
 
@@ -44,12 +44,12 @@ Explain that code samples can be embedded with syntax highlighting for live walk
 
 ## Financial Math
 
-Inline: NPV: $\text{NPV} = \sum_{t=1}^{T} \dfrac{CF_t}{(1+r)^t} - C_0$
+Inline: NPV: $\\text{NPV} = \\sum_{t=1}^{T} \\dfrac{CF_t}{(1+r)^t} - C_0$
 
 Block:
 
 $$
-\text{IRR: find } r \text{ such that } 0 = -C_0 + \sum_{t=1}^{T} \frac{CF_t}{(1+r)^t}
+\\text{IRR: find } r \\text{ such that } 0 = -C_0 + \\sum_{t=1}^{T} \\frac{CF_t}{(1+r)^t}
 $$
 
 Note:
@@ -67,3 +67,4 @@ Use this slide to justify discount rate assumptions; keep it short and push deep
 
 Note:
 If questioned on QoQ, reference bridge slide and sensitivity analysis.
+
