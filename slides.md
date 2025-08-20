@@ -23,7 +23,7 @@ Pause after each KPI. Tie EPS to capital allocation narrative before guidance.
 
 ---
 
-## Code Sample (ETL sanity check)
+## Python Code Sample (ETL sanity check)
 
 ```python
 from decimal import Decimal
@@ -39,6 +39,22 @@ print(f"YoY: {yoy_growth('4120', '3760'):.2f}%")
 
 Note:
 Explain that code samples can be embedded with syntax highlighting for live walkthroughs.
+
+---
+
+## JavaScript Code Sample
+
+```javascript
+function epsGrowth(prev, curr) {
+  if (prev === 0) return null;
+  return ((curr - prev) / prev * 100).toFixed(2);
+}
+
+console.log("QoQ EPS Growth:", epsGrowth(12.1, 12.6), "%");
+```
+
+Note:
+Adding a second language block makes the syntax highlighting check unambiguous.
 
 ---
 
@@ -67,4 +83,3 @@ Use this slide to justify discount rate assumptions; keep it short and push deep
 
 Note:
 If questioned on QoQ, reference bridge slide and sensitivity analysis.
-
