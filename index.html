@@ -58,8 +58,6 @@ def hello():
 
 <div class="brand-badge">Built with RevealJS • Publish via GitHub Pages</div>
 
-<!-- Reveal.js core JS -->
-<script src="https://unpkg.com/reveal.js@4/dist/reveal.js"></script>
 <!-- Plugins -->
 <script src="https://unpkg.com/reveal.js@4/plugin/markdown/markdown.js"></script>
 <script src="https://unpkg.com/reveal.js@4/plugin/notes/notes.js"></script>
@@ -70,7 +68,7 @@ def hello():
   Reveal.initialize({
     hash: true,
     slideNumber: true,
-    plugins: [ RevealMarkdown, RevealNotes, RevealHighlight, RevealMath.MathJax2 ],
+    plugins: [ RevealMarkdown, RevealNotes, window.RevealHighlight, RevealMath.MathJax2 ],
     math: {
       mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js',
       config: 'TeX-AMS_HTML-full'
@@ -80,7 +78,5 @@ def hello():
 </body>
 </html>
 
-  });
-</script>
 </body>
 </html>
