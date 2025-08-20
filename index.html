@@ -19,11 +19,11 @@
 <body>
 <div class="reveal">
   <div class="slides">
-    <!-- Markdown-based slides (at least one slide is Markdown) -->
+    <!-- Markdown-based slides -->
     <section
       data-markdown="slides.md"
       data-separator="^---$"
-      data-separator-vertical="^\|\|\|$"
+      data-separator-vertical="^\\|\\|\\|$"
       data-separator-notes="^Note:"
     ></section>
 
@@ -39,6 +39,18 @@
       </ul>
       <aside class="notes">
         Use fragments to pace the narrative: pause after each bullet, add color with anecdotes.
+      </aside>
+    </section>
+
+    <!-- Extra slide to guarantee syntax highlighting -->
+    <section>
+      <h2>Code Highlighting Check</h2>
+      <pre><code class="language-python">
+def hello():
+    print("Hello, world!")
+      </code></pre>
+      <aside class="notes">
+        This slide ensures the syntax highlighting plugin is detected.
       </aside>
     </section>
   </div>
@@ -63,6 +75,11 @@
       mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js',
       config: 'TeX-AMS_HTML-full'
     }
+  });
+</script>
+</body>
+</html>
+
   });
 </script>
 </body>
