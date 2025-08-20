@@ -4,64 +4,30 @@
   <meta charset="utf-8">
   <title>Quarterly Earnings – 23f2003790@ds.study.iitm.ac.in</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Reveal.js core CSS -->
+
+  <!-- Core CSS -->
   <link rel="stylesheet" href="https://unpkg.com/reveal.js@4/dist/reveal.css">
   <link rel="stylesheet" href="https://unpkg.com/reveal.js@4/dist/theme/black.css" id="theme">
+
   <!-- Syntax highlighting theme -->
   <link rel="stylesheet" href="https://unpkg.com/reveal.js@4/plugin/highlight/monokai.css">
-  <style>
-    .brand-badge {
-      position: absolute; right: 24px; bottom: 24px;
-      font-size: 12px; opacity: 0.7;
-    }
-  </style>
 </head>
 <body>
 <div class="reveal">
   <div class="slides">
-    <!-- Markdown-based slides -->
-    <section
-      data-markdown="slides.md"
-      data-separator="^---$"
-      data-separator-vertical="^\\|\\|\\|$"
-      data-separator-notes="^Note:"
-    ></section>
-
-    <!-- An HTML slide with animated fragments -->
-    <section>
-      <h2>Roadmap</h2>
-      <p>Click or press the right arrow to reveal each item:</p>
-      <ul>
-        <li class="fragment">Q1 Highlights</li>
-        <li class="fragment">KPI Deep Dive</li>
-        <li class="fragment">Outlook &amp; Guidance</li>
-        <li class="fragment">Q&amp;A</li>
-      </ul>
-      <aside class="notes">
-        Use fragments to pace the narrative: pause after each bullet, add color with anecdotes.
-      </aside>
-    </section>
-
-    <!-- Extra slide to guarantee syntax highlighting -->
-    <section>
-      <h2>Code Highlighting Check</h2>
-      <pre><code class="language-python">
-def hello():
-    print("Hello, world!")
-      </code></pre>
-      <aside class="notes">
-        This slide ensures the syntax highlighting plugin is detected.
-      </aside>
+    <!-- Markdown slides -->
+    <section data-markdown="slides.md"
+             data-separator="^---$"
+             data-separator-vertical="^\\|\\|\\|$"
+             data-separator-notes="^Note:">
     </section>
   </div>
 </div>
 
-<div class="brand-badge">Built with RevealJS • Publish via GitHub Pages</div>
-
-<!-- Load Reveal.js core -->
+<!-- Core JS -->
 <script src="https://unpkg.com/reveal.js@4/dist/reveal.js"></script>
 
-<!-- Load plugins -->
+<!-- Plugins -->
 <script src="https://unpkg.com/reveal.js@4/plugin/markdown/markdown.js"></script>
 <script src="https://unpkg.com/reveal.js@4/plugin/notes/notes.js"></script>
 <script src="https://unpkg.com/reveal.js@4/plugin/highlight/highlight.js"></script>
