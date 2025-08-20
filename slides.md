@@ -1,7 +1,7 @@
 # Quarterly Earnings – Q2 FY2025
 
 **Technical Consultant:** You  
-**Contact:** 23f2003790@ds.study.iitm.ac.in
+**Contact:** (23f2003790@ds.study.iitm.ac.in)
 
 > Modern, interactive deck for stakeholders using RevealJS.
 
